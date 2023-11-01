@@ -85,7 +85,7 @@ const slides = [
 		  img.setAttribute("src" , "./assets/images/slideshow/"+ element.image);
 		  const p = document.querySelector(".banner-txt");
 		p.innerHTML= element.tagLine;
-  
+
 	
 	  updateDot();
   }
